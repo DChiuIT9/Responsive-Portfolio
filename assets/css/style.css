@@ -225,6 +225,7 @@ input[type=submit] {
   .container {
     margin-left:40px;
     padding-right: 60px;
+    width: auto;
   }
   .main-section {
     width: 590px;
@@ -245,6 +246,9 @@ input[type=submit] {
   .main-section {
     width: 700px;
   }
+  .work {
+    width: 45%;
+  }
 }
 @media screen and (max-width: 640px) {
   body {
@@ -262,6 +266,7 @@ input[type=submit] {
     margin: auto;
     height: 60px;
     float: none;
+    text-align:center;
   }
   .main-section {
     margin: 20px 20px 0px 20px;
@@ -275,8 +280,8 @@ input[type=submit] {
     width: 100%;
     align-items: center;
   }
-  #logo {
-    width: 100%;
+  .work {
+    width:100%;
   }
 
 }
